@@ -1,5 +1,5 @@
 int irmotionPin = 4; //Pin of IR Motion Sensor (Yellow)
-var relayPin = 8; // Pin of Relay Module (Green)
+int relayPin = 8; // Pin of Relay Module (Green)
 
 void setup(){
   Serial.begin(960); 
