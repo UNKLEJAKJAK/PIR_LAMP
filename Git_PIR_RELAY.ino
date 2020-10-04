@@ -2,7 +2,7 @@ int irmotionPin = 4; //Pin of IR Motion Sensor (Yellow)
 int relayPin = 8; // Pin of Relay Module (Green)
 
 void setup(){
-  Serial.begin(960); 
+  Serial.begin(9600); 
   pinMode( relayPin, INPUT); // Set Pin connected to Relay as an OUTPUT
   digitalWrite(relayPin, HIGH); // Set Pin to LOW to turn Relay OFF
 }
