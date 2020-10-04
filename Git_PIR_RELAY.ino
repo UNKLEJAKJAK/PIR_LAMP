@@ -4,7 +4,7 @@ int relayPin = 8; // Pin of Relay Module (Green)
 void setup(){
   Serial.begin(9600); 
   pinMode( relayPin, OUTPUT); // Set Pin connected to Relay as an OUTPUT
-  digitalWrite(relayPin, HIGH); // Set Pin to LOW to turn Relay OFF
+  digitalWrite(relayPin, LOW); // Set Pin to LOW to turn Relay OFF
 }
 
 void loop(){
